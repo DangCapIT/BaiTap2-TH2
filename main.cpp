@@ -5,10 +5,13 @@ int main()
     PhanSo ps1, ps2;
     ps1.Nhap();
     ps1.RutGon();
-    ps1.Xuat();
 
     ps2.Nhap();
     ps2.RutGon();
+
+    cout << "Phan so thu nhat: ";
+    ps1.Xuat();
+    cout << "Phan so thu hai: ";
     ps2.Xuat();
 
     PhanSo tong = ps1.Tong(ps2);
